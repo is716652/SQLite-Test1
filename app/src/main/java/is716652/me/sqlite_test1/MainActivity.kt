@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Btn_Main_CreateDB.setOnClickListener {
-
+            val objDBHelper = DBHelper(this,"test.db",3)
         }
     }
 }
