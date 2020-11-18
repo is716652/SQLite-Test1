@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
         Btn_Main_CreateDB.setOnClickListener {
             val objDBHelper = DBHelper(this,"test.db",3)
+            val h :Int=3
         }
     }
 }
